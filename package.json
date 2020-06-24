@@ -1,0 +1,23 @@
+{
+  "name": "example-wwasm-dataframe-2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "babel src --out-dir=dist --source-maps",
+    "start": "node dist/main.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.10.1",
+    "@babel/core": "^7.10.1",
+    "@babel/node": "^7.10.1",
+    "@babel/preset-env": "^7.10.2",
+    "@jetblack/operator-overloading": "git+https://github.com/rob-blackbourn/jetblack-operator-overloading.git#0.1.0",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.2.0"
+  },
+  "dependencies": {}
+}

@@ -1,0 +1,16 @@
+{
+  "editor.rulers": [80],
+  "javascript.validate.enable": false,
+  "eslint.lintTask.enable": true,
+  "[javascript]": {
+    "editor.formatOnSave": false,
+    "editor.tabSize": 2,
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true
+    }
+  },
+  "cSpell.words": [
+    "Wasm",
+    "malloc"
+  ],
+}
